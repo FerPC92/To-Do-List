@@ -1,0 +1,9 @@
+<div class="form-box">
+    <h1 class="title">To-Do App</h1>
+    <form action="" onsubmit="return false" >
+    <input type="text" id="mainInput" name="">
+    <button id="buttonAdd" (click)="addElements()" type="button">+</button>
+    <div class="task-list" *ngFor="let element of listado; let i = index;">{{element}} <img src="assets/circle.png"   [ngClass]="flag ? 'checked' :'circleUncheck' " (click)="checked(i)" alt=""> <img  class="trashIcon" (click)="removeElement(i)" src="assets/trash4.png" alt=""></div>
+</form>
+
+</div>

@@ -1,0 +1,79 @@
+.form-box{
+    position: absolute;
+    top: 10%;
+    left:35%;
+    width: 380px;
+    min-height: 400px;
+    text-align: center;
+    background: rgb(241, 241, 241);
+    border-radius: 8px;
+    padding-bottom: 10px;
+    background: url('/assets/bg-img2.jpg') rgb(241, 241, 241) center ;
+    
+}
+
+.title{
+    letter-spacing: 2px;
+    padding: 10px;
+    color: black;
+}
+
+#mainInput{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    border: none
+}
+
+.task-list{
+    width: 320px;
+    height: 35px;
+    border-left: 3px solid rgb(252, 228, 12);
+    background: white;
+    margin: auto;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 4px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    border-radius: 6px;
+
+
+}
+
+.trashIcon{
+   position: absolute;
+   left: 85%;
+   height: 25px;
+}
+
+.circleUncheck{ 
+        position: absolute;
+        left: 77%;
+        height: 25px;
+}
+
+.checked{
+    position: absolute;
+    left: 77%;
+    height: 25px;
+    
+
+}
+
+
+#buttonAdd{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 200px;
+    border: 1px solid black;
+    left: 73%;
+    top: 60px;
+    background: rgb(255, 244, 148)
+
+}
+
+/*rgb(119, 119, 252)*/

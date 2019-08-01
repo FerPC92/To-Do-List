@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+   
+    background: url('https://origamiforchange.org/wp-content/uploads/2018/06/post-it-flags-perfect-tool-for-school-1440x961.jpg')  no-repeat ;
+    
+    background-color: rgba(0,0,0,0.1)
+    /*rgb(240, 240, 240)*/
+}
+
